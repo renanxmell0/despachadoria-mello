@@ -4,6 +4,16 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme inline {
+  --font-display: "Oswald", "Arial Narrow", sans-serif;
+  --font-sans: "Barlow", ui-sans-serif, system-ui, sans-serif;
+  --color-brand-red: var(--brand-red);
+  --color-brand-yellow: var(--brand-yellow);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+}
+
+
 /*
  * Design system definition.
  *
