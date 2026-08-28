@@ -1,6 +1,8 @@
 import { Instagram, Facebook, Phone } from "lucide-react";
-import logo from "@/assets/logo-mello.png.asset.json";
+
 import { ADDRESS, HOURS, NAV_LINKS, WHATSAPP_DISPLAY, whatsappLink } from "./site";
+
+const logoUrl = "/logo.png"
 
 export function Footer() {
   return (
@@ -8,7 +10,7 @@ export function Footer() {
       <div className="mx-auto grid max-w-6xl gap-8 px-4 sm:grid-cols-3">
         <div>
           <img
-            src={logo.url}
+            src={logoUrl}
             alt="Despachadoria Mello"
             width={64}
             height={64}

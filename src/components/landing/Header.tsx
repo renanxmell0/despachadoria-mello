@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/logo-mello.png.asset.json";
 import { NAV_LINKS, whatsappLink } from "./site";
+const logoUrl = "/logo.png"
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -11,7 +11,7 @@ export function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <a href="#hero" className="flex items-center gap-3">
           <img
-            src={logo.url}
+            src={logoUrl}
             alt="Logo Despachadoria Mello"
             width={44}
             height={44}

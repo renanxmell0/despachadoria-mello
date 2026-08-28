@@ -1,13 +1,14 @@
 import { MessageCircle, ShieldCheck, Clock } from "lucide-react";
-import logo from "@/assets/logo-mello.png.asset.json";
-import hero from "@/assets/hero-road.jpg.asset.json";
+
 import { whatsappLink } from "./site";
 
+const heroUrl = "/hero.jpg"
+const logoUrl = "/logo.png"
 export function Hero() {
   return (
     <section id="hero" className="grain relative isolate overflow-hidden pt-24 pb-16 sm:pt-32 sm:pb-24">
       <img
-        src={hero.url}
+        src={heroUrl}
         alt="Veículo em estrada à noite"
         width={1536}
         height={1024}
@@ -17,7 +18,7 @@ export function Hero() {
 
       <div className="mx-auto flex max-w-3xl flex-col items-center px-4 text-center">
         <img
-          src={logo.url}
+          src={logoUrl}
           alt="Despachadoria Mello"
           width={160}
           height={160}
