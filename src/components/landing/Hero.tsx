@@ -38,7 +38,7 @@ export function Hero() {
         alt="Veículo em estrada à noite"
         width={1536}
         height={1024}
-        className="absolute inset-0 -z-10 h-[120%] w-full object-cover opacity-100 blur-[3px]  will-change-transform"
+        className="absolute inset-0 -z-10 h-[120%] w-full object-cover opacity-90 blur-[3px]  will-change-transform"
       />
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-background/85 via-background/75 to-background" />
 
