@@ -10,7 +10,7 @@ const ITENS = [
 
 export function Diferenciais() {
   return (
-    <Section id="diferenciais" eyebrow="Diferenciais" title="Por que escolher a Mello">
+    <Section id="diferenciais" eyebrow="Diferenciais" title="Por que nos escolher?">
       <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {ITENS.map((i) => (
           <li key={i.title} className="surface-card rounded-xl p-6">

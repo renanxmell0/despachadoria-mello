@@ -15,7 +15,7 @@ export function Header() {
             alt="Logo Despachadoria Mello"
             width={44}
             height={44}
-            className="h-11 w-11 rounded-full ring-1 ring-brand-red/60"
+            className="h-11 w-11 rounded-full /60"
           />
           <span className="font-display text-sm leading-none tracking-wide">
             <span className="block text-foreground">DESPACHADORIA</span>

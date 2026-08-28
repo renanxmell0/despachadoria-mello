@@ -15,7 +15,7 @@ export function Footer() {
             width={64}
             height={64}
             loading="lazy"
-            className="h-16 w-16 rounded-full ring-1 ring-brand-red/60"
+            className="h-16 w-16 rounded-full "
           />
           <p className="mt-4 text-sm text-muted-foreground">
             Despachante veicular em Rio Bonito, RJ. Documentação do seu veículo sem filas.
@@ -49,7 +49,7 @@ export function Footer() {
           </a>
           <div className="mt-4 flex gap-3">
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/despachadoriamello/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"

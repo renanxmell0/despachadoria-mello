@@ -9,11 +9,11 @@ import { Section } from "./Section";
 export const FAQ_ITENS = [
   {
     q: "Quais são os prazos dos serviços?",
-    a: "Licenciamento costuma sair no mesmo dia. Transferência e emplacamento levam em média de 3 a 7 dias úteis, dependendo de vistoria e da fila do Detran. O prazo estimado é informado antes de começar.",
+    a: "O licenciamento anual geralmente é concluído no dia seguinte à abertura do processo. Transferência e emplacamento levam em média de 3 a 7 dias úteis, dependendo de vistoria e da fila do Detran. O prazo estimado é informado antes de começar.",
   },
   {
     q: "Quais documentos preciso enviar?",
-    a: "Em geral: CRV/ATPV-e assinado, documento de identidade e CPF, comprovante de residência atualizado e comprovante de vistoria quando aplicável. Enviamos a lista exata do seu caso pelo WhatsApp.",
+    a: "Em geral: CRV/ATPV-e assinado, documento de identidade e CPF e comprovante de residência atualizado. Enviamos a lista exata do seu caso pelo WhatsApp.",
   },
   {
     q: "Quais as formas de pagamento?",
