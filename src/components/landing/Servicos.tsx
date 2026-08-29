@@ -8,6 +8,7 @@ import {
   ClipboardCheck,
   Send,
   RefreshCw,
+  Truck  
 } from "lucide-react";
 import { Section } from "./Section";
 import { whatsappLink } from "./site";
@@ -22,6 +23,8 @@ const SERVICOS = [
   { icon: ClipboardCheck, title: "Vistoria", text: "Agendamento e orientação para vistoria de identificação veicular." },
   { icon: Send, title: "Comunicação de venda", text: "Proteção contra multas do novo proprietário após a venda." },
   { icon: RefreshCw, title: "Atualização cadastral", text: "Endereço, dados do proprietário e alterações no Detran." },
+  { icon: Truck, title: "Cadastro ANTT", text: "Cadastro e renovação do RNTRC para transporte de cargas." },
+  
 ];
 
 export function Servicos() {
