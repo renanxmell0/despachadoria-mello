@@ -1,5 +1,3 @@
-# Mello Automotive Docs
-
 # Landing page — Despachadoria Mello
 
 Página única, mobile-first, com estética "premium automotivo": fundo preto/grafite, vermelho vibrante nos detalhes e amarelo nos botões de ação.
@@ -50,16 +48,6 @@ Você indicou que vai enviar a logo oficial. Enquanto ela não chega, uso um mar
 - Metadados via `head()` da rota, incluindo canonical
 - Imagem de fundo do hero gerada e importada de `src/assets/`
 - Mapa via iframe do Google Maps; sem backend nesta etapa
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/79295e4a-a5a9-4213-b8f2-688b0ec9e654).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
